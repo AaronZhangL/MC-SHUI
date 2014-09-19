@@ -20,16 +20,4 @@
 		<nature>org.springframework.ide.eclipse.core.springnature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>SpringHbaseKiteSample</name>
-			<type>2</type>
-			<location>/home/aaronzhang/projects/workspace/SpringHbaseKiteSample</location>
-		</link>
-		<link>
-			<name>src-basic</name>
-			<type>2</type>
-			<location>/home/aaronzhang/projects/workspace/SpringHbaseKiteSample/src</location>
-		</link>
-	</linkedResources>
 </projectDescription>
