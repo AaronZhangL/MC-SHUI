@@ -1,0 +1,10 @@
+{"namespace": "main.java.org.bigdata.hbase.spring.avro",
+	"type": "record",
+	"name": "AvroUser",
+	"fields": [
+		{"name": "firstName", "type": "string"},
+		{"name": "lastName", "type": ["string","null"]},
+		{"name": "email", "type": ["string","null"]},
+		{"name": "address", "type": ["string","null"]}
+	]
+}
