@@ -11,10 +11,14 @@
 		http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-3.0.xsd
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd">
 
-	<hadoop:configuration id="hadoopConfiguration">fs.default.name=hdfs://localhost:9000</hadoop:configuration>
-
-	<hadoop:hbase-configuration
+<!-- 	<hadoop:configuration id="hadoopConfiguration">fs.default.name=hdfs://localhost:9000</hadoop:configuration>
+ -->
+    <hadoop:configuration id="hadoopConfiguration">fs.defaultFS=hdfs://Master:9000</hadoop:configuration>
+<!-- 	<hadoop:hbase-configuration
 		configuration-ref="hadoopConfiguration" zk-port="2181" zk-quorum="localhost.localdomain"></hadoop:hbase-configuration>
+ -->
+    <hadoop:hbase-configuration
+        configuration-ref="hadoopConfiguration" zk-port="2181" zk-quorum="Master,Slave1,Slave2"></hadoop:hbase-configuration>
 	<bean id="htemplate" class="org.springframework.data.hadoop.hbase.HbaseTemplate">
 		<property name="configuration" ref="hbaseConfiguration" />
 	</bean>

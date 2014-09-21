@@ -2,13 +2,12 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/SpringHbaseKiteSample"/>
 	<classpathentry kind="lib" path="lib/avro-1.7.4.jar"/>
 	<classpathentry kind="lib" path="lib/hadoop-common-2.4.1.jar"/>
 	<classpathentry kind="lib" path="lib/hadoop-mapreduce-client-common-2.4.1.jar"/>
 	<classpathentry kind="lib" path="lib/hadoop-mapreduce-client-core-2.4.1.jar"/>
-	<classpathentry kind="lib" path="lib/hbase-client-0.98.5-hadoop2.jar"/>
-	<classpathentry kind="lib" path="lib/hbase-common-0.98.5-hadoop2.jar"/>
+	<classpathentry kind="lib" path="lib/hbase-client-0.98.5-hadoop2.jar" sourcepath="lib/hbase-client-0.98.5-sources.jar"/>
+	<classpathentry kind="lib" path="lib/hbase-common-0.98.5-hadoop2.jar" sourcepath="lib/hbase-common-0.98.5-sources.jar"/>
 	<classpathentry kind="lib" path="lib/jackson-core-asl-1.8.8.jar"/>
 	<classpathentry kind="lib" path="lib/jackson-jaxrs-1.8.8.jar"/>
 	<classpathentry kind="lib" path="lib/jackson-mapper-asl-1.8.8.jar"/>
@@ -23,5 +22,47 @@
 	<classpathentry kind="lib" path="lib/spring-data-hadoop-2.1.0.M1.jar"/>
 	<classpathentry kind="lib" path="lib/spring-data-hadoop-core-2.1.0.M1.jar"/>
 	<classpathentry kind="lib" path="lib/spring-tx-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/spring-expression-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="lib/commons-beanutils-core-1.8.0.jar"/>
+	<classpathentry kind="lib" path="lib/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/commons-compress-1.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-configuration-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/commons-digester-1.8.jar"/>
+	<classpathentry kind="lib" path="lib/commons-el-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/commons-math3-3.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-net-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/protobuf-java-2.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/zookeeper-3.4.5.jar"/>
+	<classpathentry kind="lib" path="/home/aaronzhang/projects/workspace/SpringHbaseKiteSample/lib/hadoop/hadoop-nfs-2.4.1.jar"/>
+	<classpathentry kind="lib" path="/home/aaronzhang/projects/workspace/SpringHbaseKiteSample/lib/hadoop/hadoop-mapreduce-client-core-2.4.1.jar"/>
+	<classpathentry kind="lib" path="/home/aaronzhang/projects/workspace/SpringHbaseKiteSample/lib/hadoop/hadoop-dist-2.4.1.jar"/>
+	<classpathentry kind="lib" path="/home/aaronzhang/projects/workspace/SpringHbaseKiteSample/lib/hadoop/hadoop-common-2.4.1.jar"/>
+	<classpathentry kind="lib" path="/home/aaronzhang/projects/workspace/SpringHbaseKiteSample/lib/hadoop/hadoop-client-2.4.1.jar"/>
+	<classpathentry kind="lib" path="/home/aaronzhang/projects/workspace/SpringHbaseKiteSample/lib/hadoop/hadoop-annotations.jar"/>
+	<classpathentry kind="lib" path="/home/aaronzhang/projects/workspace/SpringHbaseKiteSample/lib/hadoop/tools/lib/hadoop-streaming-2.4.1.jar"/>
+	<classpathentry kind="lib" path="/home/aaronzhang/projects/workspace/SpringHbaseKiteSample/lib/hadoop/tools/lib/hadoop-sls-2.4.1.jar"/>
+	<classpathentry kind="lib" path="/home/aaronzhang/projects/workspace/SpringHbaseKiteSample/lib/hadoop/tools/lib/hadoop-rumen-2.4.1.jar"/>
+	<classpathentry kind="lib" path="/home/aaronzhang/projects/workspace/SpringHbaseKiteSample/lib/hadoop/tools/lib/hadoop-openstack-2.4.1.jar"/>
+	<classpathentry kind="lib" path="/home/aaronzhang/projects/workspace/SpringHbaseKiteSample/lib/hadoop/tools/lib/hadoop-gridmix-2.4.1.jar"/>
+	<classpathentry kind="lib" path="/home/aaronzhang/projects/workspace/SpringHbaseKiteSample/lib/hadoop/tools/lib/hadoop-extras-2.4.1.jar"/>
+	<classpathentry kind="lib" path="/home/aaronzhang/projects/workspace/SpringHbaseKiteSample/lib/hadoop/tools/lib/hadoop-distcp-2.4.1.jar"/>
+	<classpathentry kind="lib" path="/home/aaronzhang/projects/workspace/SpringHbaseKiteSample/lib/hadoop/tools/lib/hadoop-datajoin-2.4.1.jar"/>
+	<classpathentry kind="lib" path="/home/aaronzhang/projects/workspace/SpringHbaseKiteSample/lib/hadoop/tools/lib/hadoop-auth-2.4.1.jar"/>
+	<classpathentry kind="lib" path="/home/aaronzhang/projects/workspace/SpringHbaseKiteSample/lib/hadoop/tools/lib/hadoop-archives-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/logback-access-1.1.2.jar"/>
+	<classpathentry kind="lib" path="lib/logback-core-1.1.2.jar"/>
+	<classpathentry kind="lib" path="lib/hbase-protocol-0.98.5.jar"/>
+	<classpathentry kind="lib" path="lib/htrace-1.46.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
