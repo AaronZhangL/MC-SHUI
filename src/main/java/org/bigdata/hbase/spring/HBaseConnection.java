@@ -2,6 +2,8 @@ package main.java.org.bigdata.hbase.spring;
 
 import java.io.IOException;
 
+import javax.security.auth.login.Configuration;
+
 import org.apache.hadoop.hbase.HColumnDescriptor;
 import org.apache.hadoop.hbase.HTableDescriptor;
 import org.apache.hadoop.hbase.client.Get;
@@ -35,23 +37,27 @@ public class HBaseConnection {
         System.out.println("Current working directory : " + workingDir);
         
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
-                "main/resources/hbase-beans.xml");
+                "hbase-beans.xml");
         HbaseTemplate template = (HbaseTemplate) context.getBean("htemplate");
 
         // Add by Aaron.Z 2014.9.20
         if (context.isRunning()) {
-            context.close();
+            //context.close();
         }
 
         return template;
     }
 
     public static void main(String[] args) throws IOException {
-        BasicConfigurator.configure();
+        // Add by Aaron.Z
+        BasicConfigurator.configure(); // log4j config
         
         HBaseConnection connection = new HBaseConnection();
         HbaseTemplate hbaseTemplate = connection.getHbaseTemplate();
-        HBaseAdmin admin = new HBaseAdmin(hbaseTemplate.getConfiguration());
+        
+        // Add by Aaron.Z
+        org.apache.hadoop.conf.Configuration configuration = hbaseTemplate.getConfiguration();
+        HBaseAdmin admin = new HBaseAdmin(configuration);
         connection.createTable(admin);
         connection.putData(hbaseTemplate);
         User u = connection.getData(hbaseTemplate);

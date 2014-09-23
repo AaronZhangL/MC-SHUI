@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="main/resources/|main/resources/avro/|main/resources/thrift/|main/resources/" kind="src" path="src"/>
+	<classpathentry kind="src" path="src/main/resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="lib/avro-1.7.4.jar"/>
-	<classpathentry kind="lib" path="lib/hadoop-common-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-common-2.4.1.jar" sourcepath="lib/hadoop-common-2.4.1-sources.jar"/>
 	<classpathentry kind="lib" path="lib/hadoop-mapreduce-client-common-2.4.1.jar"/>
 	<classpathentry kind="lib" path="lib/hadoop-mapreduce-client-core-2.4.1.jar"/>
 	<classpathentry kind="lib" path="lib/hbase-client-0.98.5-hadoop2.jar" sourcepath="lib/hbase-client-0.98.5-sources.jar"/>
