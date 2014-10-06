@@ -64,6 +64,12 @@
 	<classpathentry kind="lib" path="lib/logback-access-1.1.2.jar"/>
 	<classpathentry kind="lib" path="lib/logback-core-1.1.2.jar"/>
 	<classpathentry kind="lib" path="lib/hbase-protocol-0.98.5.jar"/>
-	<classpathentry kind="lib" path="lib/htrace-1.46.jar"/>
+	<classpathentry kind="lib" path="lib/htrace-core-2.04.jar"/>
+	<classpathentry kind="lib" path="lib/hbase/netty-3.6.6.Final.jar"/>
+	<classpathentry kind="src" path=".apt_generated">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

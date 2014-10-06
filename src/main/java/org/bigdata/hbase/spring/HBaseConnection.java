@@ -33,8 +33,11 @@ public class HBaseConnection {
 
     public HbaseTemplate getHbaseTemplate() {
         
+        // Add by Aaron.Z 2014.10.6
         String workingDir = System.getProperty("user.dir");
         System.out.println("Current working directory : " + workingDir);
+        System.setProperty("hadoop.home.dir", "/opt/hadoop");
+        //System.setProperty("HADOOP_PROXY_USER", "hduser");
         
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
                 "hbase-beans.xml");
