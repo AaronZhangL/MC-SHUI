@@ -55,4 +55,8 @@
     <description>The directory shared by region servers.
     </description>
   </property>
+  <property>
+        <name>fs.hdfs.impl</name>
+        <value>org.apache.hadoop.hdfs.DistributedFileSystem</value>
+</property>
 </configuration>

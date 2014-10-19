@@ -66,6 +66,49 @@
 	<classpathentry kind="lib" path="lib/hbase-protocol-0.98.5.jar"/>
 	<classpathentry kind="lib" path="lib/htrace-core-2.04.jar"/>
 	<classpathentry kind="lib" path="lib/hbase/netty-3.6.6.Final.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-common-2.4.1-sources.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-mapreduce-client-app-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-mapreduce-client-common-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-mapreduce-client-core-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-mapreduce-client-hs-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-mapreduce-client-hs-plugins-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-mapreduce-client-jobclient-2.4.1-tests.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-mapreduce-client-jobclient-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-mapreduce-client-shuffle-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-archives-2.4.1-sources.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-archives-2.4.1-test-sources.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-common-2.4.1-tests.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-common-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-datajoin-2.4.1-sources.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-datajoin-2.4.1-test-sources.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-distcp-2.4.1-sources.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-distcp-2.4.1-test-sources.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-extras-2.4.1-sources.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-extras-2.4.1-test-sources.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-gridmix-2.4.1-sources.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-gridmix-2.4.1-test-sources.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-hdfs-2.4.1-tests.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-hdfs-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-hdfs-nfs-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-mapreduce-examples-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-nfs-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-rumen-2.4.1-sources.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-rumen-2.4.1-test-sources.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-sls-2.4.1-sources.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-sls-2.4.1-test-sources.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-streaming-2.4.1-sources.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-streaming-2.4.1-test-sources.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-yarn-api-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-yarn-applications-distributedshell-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-yarn-applications-unmanaged-am-launcher-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-yarn-client-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-yarn-common-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-yarn-server-applicationhistoryservice-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-yarn-server-common-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-yarn-server-nodemanager-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-yarn-server-resourcemanager-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-yarn-server-tests-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-yarn-server-web-proxy-2.4.1.jar"/>
 	<classpathentry kind="src" path=".apt_generated">
 		<attributes>
 			<attribute name="optional" value="true"/>
